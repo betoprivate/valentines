@@ -1,0 +1,72 @@
+.card {
+  display: flex;
+  position: relative;
+  place-content: center;
+}
+
+.card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 320px;
+  height: 266px;
+  background: url(../img/rila\ 1.svg) no-repeat;
+  top: 80px;
+  left: 180px;
+  pointer-events: none;
+}
+
+.text-card::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../img/detail1.png) no-repeat;
+  top: -50px;
+  left: -50px;
+  pointer-events: none;
+}
+
+.text-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(../img/detail2.png) no-repeat;
+  bottom: -200px;
+  right: -350px;
+  pointer-events: none;
+}
+
+.text-card {
+  position: relative;
+  padding: 100px 120px;
+  background: #fff;
+  margin-top: 100px;
+  border-radius: 8px;
+}
+
+.text-card p {
+  margin-bottom: 60px;
+  font-size: 1.5rem;
+  place-content: center;
+}
+
+.link-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  gap: 60px;
+}
+
+.link-container a {
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 1.125rem;
+  background: #ffbbc1;
+  border-radius: 4px;
+  place-content: space-evenly;
+}

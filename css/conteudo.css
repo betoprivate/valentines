@@ -1,0 +1,105 @@
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  background: #ffbbc1;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  margin-bottom: 6rem;
+  position: relative;
+}
+
+.conteudo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  background: url(../img/pum.png) no-repeat;
+  left: -300px;
+  top: 700px;
+}
+
+.conteudo img {
+  border-radius: 4px;
+}
+
+.conteudo-um::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 236px;
+  height: 165px;
+  background: url(../img/image\ 10.svg) no-repeat;
+  top: 480px;
+  left: 880px;
+}
+
+.conteudo-um::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 155px;
+  height: 180px;
+  background: url(../img/toppng\ 1.svg) no-repeat;
+  top: 450px;
+  left: 450px;
+}
+
+.conteudo-dois::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 155px;
+  height: 180px;
+  background: url(../img/toppng\ 1.svg) no-repeat;
+  left: -60px;
+  bottom: -100px;
+}
+
+.conteudo-dois::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 236px;
+  height: 165px;
+  background: url(../img/image\ 11.svg) no-repeat;
+  left: -600px;
+  bottom: -60px;
+}
+
+.conteudo-tres::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 236px;
+  height: 165px;
+  background: url(../img/image\ 12.svg) no-repeat;
+  top: 550px;
+  left: 880px;
+}
+
+.conteudo-um {
+  padding: 3rem;
+  position: relative;
+  display: grid;
+  align-content: center;
+  text-align: end;
+  gap: 1.2rem;
+}
+
+.conteudo-dois {
+  padding: 3rem;
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: 1.2rem;
+}
+.conteudo-tres {
+  padding: 3rem;
+  position: relative;
+  display: grid;
+  align-content: center;
+  text-align: end;
+  gap: 1.2rem;
+}

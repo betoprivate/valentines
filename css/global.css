@@ -1,0 +1,71 @@
+body {
+  font-family: "Indie Flower", cursive;
+  margin: 0px;
+  color: #141414;
+  background: url("../img/bg.svg") repeat center, #ffdee3;
+  background-size: 100%;
+  display: grid;
+  gap: 3.7rem; /* 60px */
+  justify-items: center;
+  margin-top: 3.7rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #141414;
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffbbc1;
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff8896;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
